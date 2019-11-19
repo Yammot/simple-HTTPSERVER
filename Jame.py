@@ -1,4 +1,0 @@
-def fun():
-    print('Jame做了很多工作')
-
-fun()
