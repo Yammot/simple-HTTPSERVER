@@ -1,1 +1,12 @@
-![](/home/tarena/图片/eva.jpg)
+## 这是一个关于浏览器和后端进行交互的简单项目
+### HttpServer和WebFrame是主体程序
+#### HttpServer的功能
+- 获取http请求
+- 解析http请求
+- 将请求发送给WebFrame
+- 从WebFrame接收反馈数据
+- 将数据组织为Response格式发送给客户端
+#### WebFrame的功能
+- 从httpserver接收具体请求
+- 根据请求进行逻辑处理和数据处理
+- 将需要的数据反馈给httpserver
